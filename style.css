@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+    
+}
+body{
+display: flex;
+}
+
+.login{
+    border: solid;
+    width: 30%;
+
+}
+.login h1{
+    font-family: 'Inter', sans-serif;
+    font-weight: 700;
+}
+
+.login figure {
+    height:30vh ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login figure img{
+    width: 11vw;    
+}
+
+.login img{
+    width:5vw ;
+}
+
+form{
+    border: solid;
+    display: flex;
+    flex-direction: column;
+    height: 25vh;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+form input{
+ background-color:#e8e6e6;
+    height: 3vw;
+    border: none;
+    width: 70%;
+} 
+
+input::placeholder{
+  position: relative;
+  bottom:25%;
+  left:5%; 
+  text-transform: capitalize;
+}
+.redes-sociais {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+   
+}
+.redes-sociais img{
+    width: 25px;
+}
+.redes-sociais div{
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    height: 20%;
+    background-color: aqua;
+}
+.redes-sociais .facebook{
+    background-color: #2051FF;
+    border-radius: 5px;
+}
+.redes-sociais .google{
+    background-color:
+    #8A0000 ;
+    border-radius: 5px;
+}
+.redes-sociais .apple{
+    background-color: 
+    #000000;
+    border-radius: 5px;
+}
+.type {
+    position: relative;
+   top: 2vh;
+   left: 2vw;
+
+}
+.acesso button{
+    position: relative;
+    left: 17vh;
+    top:3vw
+
+}
+.acesso img{
+    width: 45px;
+    background-color: #FF002E;
+    border-radius:10px ;
+    
+  
+}
+.acesso p{
+    text-align: center;
+    position: relative;
+    top: 9vh;
+    
+}
+
+.jogo img{
+    width: 80vw;
+}
