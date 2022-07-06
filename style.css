@@ -105,12 +105,14 @@ input::placeholder{
      */
 
 }
+.log{
+transform: scale(130%);
+background-color:#FF002E ;
+transition: ease-in-out 0.5s;
+}
 .acesso img{
     width: 45px;
-    background-color: #FF002E;
     border-radius:10px ;
-    
-  
 }
 .acesso p{
     text-align: center;
