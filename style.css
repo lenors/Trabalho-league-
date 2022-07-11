@@ -276,6 +276,12 @@ z-index: 2;
     bottom: 10vh;
     left: 10vw;
 }
+.acesso p{
+    width: 250px;
+    position: relative;
+    right: 20vw;
+
+}
     }
     @media (max-width: 320px) {
       body {
