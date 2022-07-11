@@ -1,217 +1,286 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap');
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
-    
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-body{
-display: flex;
+body {
+  display: flex;
 }
 
-.login{
-   
-    width: 30%;
-
+.login {
+  width: 30%;
 }
-.login h1{
-    font-family: 'Inter', sans-serif;
-    font-weight: 700;
+.login h1 {
+  font-family: "Inter", sans-serif;
+  font-weight: 700;
 }
 
 .login figure {
-    height:30vh ;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.login figure img{
-    width: 11vw;    
-}
-
-.login img{
-    width:5vw ;
+.login figure img {
+  width: 11vw;
 }
 
-form{
-
-    display: flex;
-    flex-direction: column;
-    height: 25vh;
-    align-items: center; 
-    justify-content: space-evenly;
-    border-radius: 2px;
+.login img {
+  width: 5vw;
 }
-form input{
- background-color:#e8e6e6;
-    height: 3vw;
-    border: none;
-    width: 70%;
-} 
 
-input::placeholder{
+form {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 2px;
+}
+form input {
+  background-color: #e8e6e6;
+  height: 3vw;
+  border: none;
+  width: 70%;
+}
+
+input::placeholder {
   position: relative;
-  bottom:25%;
-  left:5%; 
+  bottom: 25%;
+  left: 5%;
   text-transform: capitalize;
 }
 .redes-sociais {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
-    justify-content: space-evenly;
-   
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
 }
-.redes-sociais img{
-    width: 25px;
+.redes-sociais img {
+  width: 25px;
 }
-.redes-sociais div{
-    display: flex;
-    justify-content: center;
-    width: 20%;
-    height: 20%;
-    background-color: aqua;
+.redes-sociais div {
+  display: flex;
+  justify-content: center;
+  width: 20%;
+  height: 20%;
+  background-color: aqua;
 }
-.redes-sociais .facebook{
-    background-color: #2051FF;
-    border-radius: 5px;
+.redes-sociais .facebook {
+  background-color: #2051ff;
+  border-radius: 5px;
 }
-.redes-sociais .google{
-    background-color:
-    #8A0000 ;
-    border-radius: 5px;
+.redes-sociais .google {
+  background-color: #8a0000;
+  border-radius: 5px;
 }
-.redes-sociais .apple{
-    background-color: 
-    #000000;
-    border-radius: 5px;
+.redes-sociais .apple {
+  background-color: #000000;
+  border-radius: 5px;
 }
 .type {
-    position: relative;
-   top: 2vh;
-   left: 2vw;
-
+  position: relative;
+  top: 2vh;
+  left: 2vw;
 }
-.acesso button{
-    position: relative;
-    left: 17vh;
-    top:3vw;
-    width: 47px;
-    height: 49px;
-    cursor: pointer;
-    /* border-radius: 13px;
+.acesso button {
+  position: relative;
+  left: 17vh;
+  top: 3vw;
+  width: 47px;
+  height: 49px;
+  cursor: pointer;
+  /* border-radius: 13px;
     border: none;
      */
-
 }
-.log{
-transform: scale(130%);
-background-color:#FF002E ;
-transition: ease-in-out 0.5s;
+.log {
+  transform: scale(130%);
+  background-color: #ff002e;
+  transition: ease-in-out 0.5s;
 }
-.acesso img{
-    width: 45px;
-    border-radius:10px ;
+.acesso img {
+  width: 45px;
+  border-radius: 10px;
 }
-.acesso p{
-    text-align: center;
+.acesso p {
+  text-align: center;
+  position: relative;
+  top: 9vh;
+}
+.facebook:hover {
+  padding: 2px 2px;
+  transition: ease-in-out 0.3s;
+}
+.google:hover {
+  padding: 2px 2px;
+  transition: ease-in-out 0.3s;
+}
+.apple:hover {
+  padding: 2px 2px;
+  transition: ease-in-out 0.3s;
+}
+.jogo img {
+  width: 80vw;
+}
+@media (max-width: 2560px) {
+  .acesso button {
     position: relative;
-    top: 9vh;
-    
+    left: 9vw;
+  }
+  .logo {
+    display: none;
+  }
 }
-.facebook:hover{
- padding: 2px 2px;
- transition: ease-in-out 0.3s;
+@media (max-width: 1440px) {
+  .redes-sociais img {
+    width: 2.5vh;
+  }
+  .logo {
+    display: none;
+  }
 }
-.google:hover{
-    padding: 2px 2px;
-    transition: ease-in-out 0.3s;
-   }
-.apple:hover{
-    padding: 2px 2px;
-    transition: ease-in-out 0.3s;
-   }
-.jogo img{
-    width: 80vw;
-}
-@media (max-width: 2560px){
-    .acesso button{
-        position: relative;
-        left: 9vw;
-    }
-    .logo{
-        display: none;
-    }
-}
-@media (max-width:1440px){
-    .redes-sociais img{
-        width: 2.5vh;
-    }
-    .logo{
-        display: none;
-    }
-}
-@media (max-width:1024px){
-    .login figure{
-        position: relative;
-        bottom: 7vh;
-    }
-    .logo{
-        display: none;
-    }
-    form h1{
-        position: relative;
-        bottom: 21vh;
-        font-size: 14px;
-    }
-    form input{
-        position: relative;
-      bottom: 23vh;
-      display: flex;
-  flex-wrap: wrap;
-   
-    }
-    form input .type .password{
-        position: relative;
-        bottom: 4vw;
-    }
-    .redes-sociais{
-        position: relative;
-        bottom: 22vh;
-    }
-    .type input{
-        position: relative;
-        bottom: 22vh;
-    }
-    .type label {
-        position:relative;
-        bottom: 22vh;
-        left: 1vw;
-    }
-    .acesso{
-        position: relative;
-        bottom: 20vh;
-    }
-    .acesso p{
-        width: 90%;
-        font-size: 12px;
-        margin-left: 1vw;
-    }
-    .logo{
-        display: none;
-    }
-    
-    @media (max-width:768px){
+@media (max-width: 1024px) {
+  .login figure {
+    position: relative;
+    bottom: 7vh;
+  }
+  .logo {
+    display: none;
+  }
+  form h1 {
+    position: relative;
+    bottom: 21vh;
+    font-size: 14px;
+  }
+  form input {
+    position: relative;
+    bottom: 23vh;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form input .type .password {
+    position: relative;
+    bottom: 4vw;
+  }
+  .redes-sociais {
+    position: relative;
+    bottom: 22vh;
+  }
+  .type input {
+    position: relative;
+    bottom: 22vh;
+  }
+  .type label {
+    position: relative;
+    bottom: 22vh;
+    left: 1vw;
+  }
+  .acesso {
+    position: relative;
+    bottom: 20vh;
+  }
+  .acesso p {
+    width: 90%;
+    font-size: 12px;
+    margin-left: 1vw;
+  }
+  .logo {
+    display: none;
+  }
 
-        .jogo{
-           display: none;
-        }
-        body{
-            background-image: url(assets/kisspng-league-of-legends-world-championship-computer-icon-mobile-legend-logo-5b2999683c7918.8855642015294529042477.png);
-            background-repeat: no-repeat;
-            position: relative;
-            left: 22vw;
-        }
+  @media (max-width: 768px) {
+    .jogo {
+      display: none;
     }
+    body {
+      background-image: url(assets/kisspng-league-of-legends-world-championship-computer-icon-mobile-legend-logo-5b2999683c7918.8855642015294529042477.png);
+      background-repeat: no-repeat;
+      position: relative;
+      left: 22vw;
+    }
+    @media (max-width: 375px) {
+      body {
+        background-image: none;
+        width: 60%;
+      }
+      .login figure img {
+        width: 200px;
+        border: solid black;
+        position: relative;
+        left: 18vw;
+      }
+      .login h1 {
+        font-size: 27px;
+        width: 150px;
+        margin-left: 5vw;
+        margin-bottom: 12vw;
+      }
+      .login form {
+        position: relative;
+        top: 7vh;
+        margin-left: 16vh;
+      }
+      .login input {
+        margin-top: vh;
+        border: solid;
+        width: 28vh;
+        height: 9vw;
+      }
+      .redes-sociais{
+        border: solid red ;
+        position: relative;
+        display: flex;
+       justify-content: space-around;
+        bottom: 20vw;
+        left: 5vw;
+        width: 155px;
+      }
+      .redes-sociais div img{
+        width: 4vh;
+        height: 22px;
+        display: flex;
+        justify-content: space-around;
+      }
+      .redes-sociais .facebook{
+      width: 36px;
+      }
+      .redes-sociais .google{
+        width: 36px;
+      }
+      .redes-sociais .apple{
+        width: 36px;
+      }
+      .type{
+        width: 350px;
+      }
+    .type input{ 
+        position: relative;
+        width: 16px;
+     bottom: 14vh;
+border: solid red;
+}
+.type label{
+    width: 100%;
+    border: solid;
+    font-size: 12px;
+    margin-left:5px;
+ position: relative;
+bottom: 16vh;
+z-index: 2;
+}
+.acesso{
+    position: relative;
+    bottom: 10vh;
+    left: 10vw;
+}
+    }
+    @media (max-width: 320px) {
+      body {
+        width: 100%;
+      }
+    }
+  }
 }
