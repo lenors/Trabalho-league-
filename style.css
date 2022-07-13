@@ -195,6 +195,9 @@ input::placeholder {
           width: 75%;
           height: 70%;
     }
+    body .img{
+      background-image: none;
+    }
     .login figure img{
       width: 130px;
       margin-left: 30vw;
@@ -236,7 +239,7 @@ input::placeholder {
       bottom: 24vh;
     }
   .type label{position: relative;
-  bottom: 29.4vh;
+  bottom: 27.4vh;
   left: 15vw;
     height: 250px;
     width: 250px;
@@ -254,9 +257,7 @@ left: 11vw;
   width: 300px;
   right: 20vw;
 }
-      }
-     
-  
+  }
   @media (max-width: 768px) {
     .jogo {
       display: none;
@@ -270,7 +271,8 @@ left: 11vw;
     @media (max-width: 375px) {
       body {
         background-image: none;
-        width: 60%;
+        width: 50%;
+        height: 50%;
       }
       .login figure img {
         width: 200px;
@@ -300,9 +302,9 @@ left: 11vw;
         position: relative;
         display: flex;
        justify-content: space-around;
-        bottom: 20vw;
+        bottom: 25vw;
         left: 5vw;
-        width: 155px;
+        width: 205px;
       }
       .redes-sociais div img{
         width: 4vh;
