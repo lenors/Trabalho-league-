@@ -249,6 +249,7 @@ input::placeholder {
         background-image: none;
         position: absolute;
         left: 15vw;
+        top: 12vw;
         
       }
 
