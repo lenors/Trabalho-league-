@@ -274,6 +274,7 @@ input::placeholder {
         width: 130px;
         height: 30px;
         border-radius: 8px;
+        z-index: 2;
       }
   
       .redes-sociais .facebook {
