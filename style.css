@@ -299,23 +299,24 @@ input::placeholder {
         margin-bottom: 26vw;
       
       }
-  
-      .type input {
-        position: absolute;
-        right: 4vw;
-        width: 15px;
-        bottom: 39vh;
+      .type {position: absolute;
        
-        z-index: 2;
+      }
+      .type input {
+        margin-top: 58vh;
+        margin-left: -1vw;
+        height: 15px;
+         z-index: 2;
       }
   
       .type label {
         position: absolute;
-        margin-bottom: 21.5vw;
-        left: 15vw;
-        height: 20px;
-        width: 90px;
+        width:100px;
+       
         font-size: 13px;
+        bottom: 27.5vw;
+        left: 17vw;
+        z-index: 2;
       }
   
       .acesso {
@@ -323,12 +324,14 @@ input::placeholder {
         width: 120px;
         bottom: 13vh;
         left: 15vw;
+        
       }
   
       .acesso p {
         position: relative;
         width: 300px;
         right: 23vw;
+        
       }
     }
   
@@ -341,7 +344,7 @@ input::placeholder {
 
       .login figure img {
         width: 200px;
-        border: solid black;
+       
         position: relative;
         left: 18vw;
       }
