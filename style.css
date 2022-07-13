@@ -238,12 +238,12 @@ input::placeholder {
       width: 15px;
       bottom: 24vh;
     }
-  .type label{position: absolute;
-   
-  bottom: -13vh;
-  left: 15vw;
-    height: 250px;
-    width: 250px;
+  .type label{
+    position: absolute;
+  margin-bottom:4vw;
+  left: 14vw;
+    height: 20px;
+    width: 90px;
 font-size: 13px;
   }
 .acesso{
