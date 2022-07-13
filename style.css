@@ -190,7 +190,73 @@ input::placeholder {
   .logo {
     display: none;
   }
+  @media (max-width: 425px){
+    body{
+          width: 75%;
+          height: 70%;
+    }
+    .login figure img{
+      width: 130px;
+      margin-left: 30vw;
+    }
+    .login h1{
+      width: 150px;
+      font-size: 20px;
+      margin-left: 39vw;
+    }
+    .login input{
+      margin-left: 30vw;
+      width: 130px;
+      height: 30px;
+      border-radius: 8px;
+    }
 
+    .redes-sociais .facebook{
+      width: 40px;
+      height:20px;
+    }
+    .redes-sociais .google{
+      width: 40px;
+      height:20px;
+    }
+    .redes-sociais .apple{
+      width: 40px;
+      height:20px;
+    }
+    .redes-sociais{
+      width: 140px;
+      margin-left: 10vw;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .type input{
+      position: relative;
+      right: 20vw;
+      width: 15px;
+      bottom: 24vh;
+    }
+  .type label{position: relative;
+  bottom: 29.4vh;
+  left: 15vw;
+    height: 250px;
+    width: 250px;
+
+    font-size: 13px;
+  }
+.acesso{
+  position: relative;
+  width: 300px;
+  bottom: 27vh;
+left: 11vw;
+}
+.acesso p{
+  position: relative;
+  width: 300px;
+  right: 20vw;
+}
+      }
+     
+  
   @media (max-width: 768px) {
     .jogo {
       display: none;
@@ -289,4 +355,4 @@ z-index: 2;
       }
     }
   }
-}
+
