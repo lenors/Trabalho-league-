@@ -247,9 +247,9 @@ input::placeholder {
 font-size: 13px;
   }
 .acesso{
-  position: relative;
+  position: absolute;
   width: 300px;
-  bottom: 19vh;
+  bottom: 8vh;
 left: 11vw;
 }
 .acesso p{
