@@ -240,7 +240,7 @@ input::placeholder {
     }
   .type label{
     position: absolute;
-  margin-bottom:4vw;
+  margin-bottom:6vw;
   left: 14vw;
     height: 20px;
     width: 90px;
